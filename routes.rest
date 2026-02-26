@@ -3,3 +3,13 @@ GET http://localhost:3000/ttech HTTP/1.1
 
 ### get the root path /
 GET http://localhost:3000/ HTTP/1.1
+
+### get all students
+GET http://localhost:3000/students HTTP/1.1
+
+### get one student
+GET http://localhost:3000/students/69a09d21accac6fae9117c5f HTTP/1.1
+
+### create a student
+POST http://localhost:3000/students HTTP/1.1
+Content-Type: application/json
