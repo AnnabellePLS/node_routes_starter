@@ -1,5 +1,3 @@
-
-
 const routes = require("express").Router();
 const myController = require("../controllers");
 

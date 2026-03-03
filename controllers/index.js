@@ -2,7 +2,7 @@ const mongodb = require("../db/connect");
 const ObjectId = require("mongodb").ObjectId;
 
 const awesomeFunction = (req, res, next) => {
-  res.json("Awesome Name!");
+  res.json("Hello from my route!");
 };
 
 const tooeleTechFunction = (req, res, next) => {
