@@ -1,3 +1,5 @@
+
+
 const routes = require("express").Router();
 const myController = require("../controllers");
 
@@ -7,6 +9,9 @@ routes.get("/ttech", (req, res) => {
 });
 //student routes
 routes.use("/students", require("./students"))
+
+//auth routes 
+routes.use("/auth", require("./auth"));
 
 module.exports = routes;
 
